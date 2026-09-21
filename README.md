@@ -1,4 +1,4 @@
-# srrrg-k3s
+# srrrg-app
 
 Java 21·Spring Boot 4 기반의 새 앱이다. 현재는 상태 검사와 최소 OAuth2·JWT 인증을 제공한다. 프로젝트 기능은 아직 없다.
 

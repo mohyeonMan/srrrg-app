@@ -1,4 +1,4 @@
-# srrrg-k3s 작업 지침
+# srrrg-app 작업 지침
 
 이 저장소는 srrrg를 필요한 기능부터 다시 옮기기 위한 초기 Spring Boot 앱이다. 현재 제품 기능과 DB 스키마는 없다. 기존 구현은 별도 `srrrg` 저장소를 참고한다.
 

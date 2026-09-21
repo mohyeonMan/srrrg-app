@@ -1,4 +1,4 @@
-# srrrg-k3s — Claude Code
+# srrrg-app — Claude Code
 
 ## 반드시 지킬 작업 범위
 
