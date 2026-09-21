@@ -1,6 +1,30 @@
 spring:
   application:
     name: srrrg
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5433/srrrg_local}
+    username: ${DATABASE_USER:srrrg}
+    password: ${DATABASE_PASSWORD:srrrg-local-password}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+srrrg:
+  auth:
+    base-url: ${SRRRG_BASE_URL:http://localhost:8080}
+    frontend-url: ${SRRRG_FRONTEND_URL:}
+    jwt-key-base64: ${SRRRG_JWT_KEY_BASE64:}
+  oauth:
+    google:
+      client-id: ${GOOGLE_CLIENT_ID:}
+      client-secret: ${GOOGLE_CLIENT_SECRET:}
+    kakao:
+      client-id: ${KAKAO_CLIENT_ID:}
+      client-secret: ${KAKAO_CLIENT_SECRET:}
+    github:
+      client-id: ${GITHUB_CLIENT_ID:}
+      client-secret: ${GITHUB_CLIENT_SECRET:}
 
 management:
   endpoint:
